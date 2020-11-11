@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Class="_420_N33_LA_WPF_Calculator.Styles"
+                    x:ClassModifier="public">
+
+    <Style TargetType="TextBox" x:Key="TBStyle">
+        <Setter Property="Margin" Value="1.5,5,1.5,5"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="BStyle">
+        <Setter Property="Margin" Value="1.5" />
+    </Style>
+    
+</ResourceDictionary>
