@@ -3,12 +3,30 @@
                     x:Class="_420_N33_LA_WPF_Calculator.Styles"
                     x:ClassModifier="public">
 
-    <Style TargetType="TextBox" x:Key="TBStyle">
-        <Setter Property="Margin" Value="1.5,5,1.5,5"/>
+    <Style TargetType="Label" x:Key="LabelStyle">
+        <Setter Property="FontSize" Value="40" />
+        <Setter Property="Foreground" Value="White" />
     </Style>
 
-    <Style TargetType="Button" x:Key="BStyle">
+    <Style TargetType="Button" x:Key="BStyleNum">
         <Setter Property="Margin" Value="1.5" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Background" Value="#505050"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="BStyleOp">
+        <Setter Property="Margin" Value="1.5" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Background" Value="#FF9500"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="BStyleTop">
+        <Setter Property="Margin" Value="1.5" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="#1C1C1C" />
+        <Setter Property="Background" Value="#D4D4D2" />
     </Style>
     
 </ResourceDictionary>
